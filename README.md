@@ -4,7 +4,7 @@
 ## ¿Que problema resuelve?
 ### resuelve problemas de incompatibilidad entre objetos, ya sea por el formato de archivos que manejan o por el tipo de datos que usan, el adaptador se encarga de hacer posible la comunicacion de esos objetos, en algunos casos convirtiendo de un formato de archivo a otro o haciendo conversiones entre tipos de datos para asi no cambiar el codigo de las clases que se estan comunicando
 ## ¿Como lo hace?
-### se usa una clase intermedia entre las clases incompatibles, los metodos de esta clase se encargan de usar los metodos de la clase incompatible para darle a la otra clase los datos que necesita de la clase incompatible como se puede ver en la imagen `![alt text](https://refactoring.guru/images/patterns/diagrams/adapter/example.png)`
+### se usa una clase intermedia entre las clases incompatibles, los metodos de esta clase se encargan de usar los metodos de la clase incompatible para darle a la otra clase los datos que necesita de la clase incompatible como se puede ver en la imagen ![alt text](https://refactoring.guru/images/patterns/diagrams/adapter/example.png)
 ## Ventajas
 ### el codigo de conversion al estar separado respeta el principio de responsabilidad unica 
 ### se pueden agregar varios adaptadores sin afectar al codigo existente
